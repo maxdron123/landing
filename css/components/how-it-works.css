@@ -1,0 +1,31 @@
+.container {
+  width: 900;
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 180px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  box-shadow: 0px 0px 5px black;
+  text-align: center;
+
+}
+
+
+.card img {
+  height: 300px;
+  width:300px;
+  object-fit: cover;
+}

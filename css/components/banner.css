@@ -1,0 +1,31 @@
+.banner {
+  display: flex;
+  color:rgb(225, 233, 10);
+  background-size: contain;
+  background-position: center;
+  padding:300px;
+  text-align: right;
+  position: relative;
+}
+
+.banner-container {
+  padding: 10px;
+  font-family: 'Open sans', sans-serif;
+  margin: 0px auto;
+  position: absolute;
+  bottom: 50px;
+  left:680px
+}
+ .btn-yellow {
+  text-decoration: none;
+  background-color: yellow;
+  padding: 10px 15px;
+  border-radius: 6px;
+  color: grey;
+  font-weight: bolder;
+  opacity: 0.3;
+ }
+
+ .btn-yellow:hover {
+  opacity: 1.1;
+ }
